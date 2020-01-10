@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<!-- EXCLUDE
+								https://tokyotransportguide.com/en/foreword.html
+								https://tokyotransportguide.com/en/disclaimer.html
+								https://tokyotransportguide.com/en/privacypolicy.html
+	-->
+
+	<lastmod>2020-01-10</lastmod>
+<!-- INDEX -->
+	<url><lastmod>2020-01-10</lastmod><priority>0.9</priority><loc>
+								https://tokyotransportguide.com/
+							</loc></url>
+<!-- FROM NARITA AIRPORT TO CITY -->
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/at-the-airport.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/narita-airport.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/narita-to-city.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/narita-to-city-by-keisei.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/keisei-line-timetables.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/narita-to-city-by-sobu-yokosuka-line.html
+							</loc></url>
+<!-- FROM HANEDA AIRPORT TO CITY -->
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/haneda-airport.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/haneda-to-city.html
+							</loc></url>
+<!-- TRAINS -->
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/trains.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/ic-cards.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/transportation.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/tokyo-train-basics.html
+							</loc></url>
+<!-- TOKYO -->
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/tokyo-areas.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/tokyo.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/asakusa.html
+							</loc></url>
+<!-- JAPAN -->
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/basic.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/food.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/events.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/japan-qa.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/new-year.html
+							</loc></url>
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/new-years-eve-train-schedule.html
+							</loc></url>
+<!-- JAPANESE -->
+	<url><lastmod>2020-01-10</lastmod><loc>
+								https://tokyotransportguide.com/en/japanese-phrases.html
+							</loc></url>
+</urlset>
