@@ -1,0 +1,554 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	
+<!-- BEGIN ( src/src/pt/head.x -->
+	<link rel="canonical"		href="https://tokyotransportguide.com/en/ic-cards.html">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7724255735811745"
+		crossorigin="anonymous">
+	</script>
+	<meta name="description"		content="How to buy and use SUICA/PASMO - for trains, subways and shopping">
+	<meta name="keywords"			content=" ">
+	<meta property="og:url"			content="https://tokyotransportguide.com/en/ic-cards.html">
+	<meta property="og:type"		content="website">
+	<meta property="og:title"		content="How to buy & use SUICA & PASMO cards">
+	<meta property="og:description"	content="How to buy and use SUICA/PASMO - for trains, subways and shopping">
+	<meta property="og:site_name"	content="Tokyo Transport Guide">
+
+	<title>How to buy & use SUICA & PASMO cards</title>
+<!-- END ) src/src/pt/head.x -->
+
+	
+<!-- BEGIN ( src/src/pt/blue.css.x -->
+	<style>
+		/*	-------------------------------------------------------------------- 
+			HEADER / BODY / JS CHECK
+			-------------------------------------------------------------------- */
+		html		{
+						-ms-text-size-adjust:		100%;
+						-webkit-text-size-adjust:	100%;
+					}
+		.bluebody, .whitebody
+					{
+						margin:				0px;
+						padding:				0px;
+						top:					0;
+						line-height:				1.5;
+		
+						font-family:				sans-serif;
+					}
+		.bluebody	{
+		/*				background-color:		blue; */
+		/*				background-image:		url("../img/sea.png"); */
+						background-color:		#fcfcfc;;
+						color:					black;
+					}
+		.whitebody {
+						background-color:		#fbfbfd;
+						color:					black;
+					}
+		noscript	{
+						text-align:				center;
+						font-weight:			bold;
+					}
+		/*	-----------------------------------------------------------
+			GENERIC IMG RULES
+			----------------------------------------------------------- */
+		img			{max-width:100%; height:auto}
+		/* 2019/07/14 addressing error
+		 .halfw		{width:49%} */
+		.halfw		{width:47%}
+		.fullw		{width:98%}
+		.img_wide	{width:98%}
+		
+		/* 2017-12-3  for n-t by keisei */
+		@media screen and (min-width: 1280px)	{	.img_big { width: 50%;		float: right; }}
+		@media screen and (max-width: 1280px)	{	.img_big { width: 640px;		float: right; }}
+		@media screen and (max-width: 1100px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 1000px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 900px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 800px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 700px)	{	.img_big { width: 600px;		}}
+		@media screen and (max-width: 640px)	{	.img_big { width: 96%;		}}
+		.img_wide_div {
+				overflow: hidden;
+				width: 98%;
+				border: 1px solid #d0c0e0; 
+				padding: 4px;
+				min-height: 1px;
+				background-color: #f4f0e8;
+				zoom: 1; }
+		.img_wide_div:after { clear: both; }
+		
+		/*	-----------------------------------------------------------
+			BANNER "Tokyo Transport Guide" / PAGE TITLE
+			----------------------------------------------------------- */
+		.page_banner_area, .page_title_area
+						{
+							/* from E.P. >>*/
+							display:					table;
+							box-sizing:				border-box;
+							top:					0px;
+							left:					0px;
+							/* << from E.P. */
+		
+							position:				relative;
+		
+							margin:				0px;
+							padding:				0px;
+							border:					0px;
+							border-spacing:		0px;
+		
+							width:					100%;
+		
+							vertical-align:			middle;
+						}
+		.page_banner_area
+						{
+							text-align:				center;
+		
+							background:			#aaaaff;
+							background:			-webkit-linear-gradient(#aaaaff, #bbffbb);
+							background:			-o-linear-gradient(#aaaaff, #bbffbb);
+							background:			-moz-linear-gradient(#aaaaff, #bbffbb);
+							background:			linear-gradient(#aaaaff, #bbffbb);
+		
+							cursor:					pointer;	/* 2017-11-02 */
+						}
+		.page_title_area
+						{
+							height:					40px;
+		
+						/*	background-color:		#ffffcc; */
+							background-color:		#ffe8e0;
+						}
+				.xcella,
+				.xcellb,
+				.xcellc,
+				.ycella,
+				.ycellb
+						{
+							display:				table-cell;
+							box-sizing:			border-box;
+							vertical-align:		middle;
+		
+							margin:			0px;
+							border:				0px;
+							border-spacing:	0px;
+							padding:			0px 0px 0px 0px;
+						}
+				.xcella,
+				.xcellb,
+				.xcellc	{
+							line-height:			60px;
+							text-align:			center;
+						}
+				.xcella	{	width:	60px;	padding:	0px 0px 0px 0px;	}
+				.xcellb	{		 			padding:	0px 0px 0px 0px;	}
+				.xcellc	{	width:	60px;	padding:	0px 0px 0px 0px;	}
+		
+				.ycella,
+				.ycellb	{	line-height:	38px;								}
+				.ycela	{		 			padding:	0px 0px 0px 0px;	}
+				.ycellb	{	width:	50px;	padding:	12px 0px 0px 0px;	}
+		/*	-----------------------------------------------------------
+			TTG LOGO / HOME BUTTON
+			----------------------------------------------------------- */
+		.ttg_logo	/* "Tokyo Transport Guide" logo */
+					{
+						margin:			0;
+						padding:			0;
+		
+						width:				100%;
+						height:				100%;
+						line-height:			1em;
+		
+						text-align:			center;
+						vertical-align:		middle;
+		
+						font-size:			24px;
+						font-weight:		400;
+						color:				white;
+					}
+		
+		@media screen and (min-width: 600px)	{	.ttg_logo { }}
+		@media screen and (max-width: 599px)	{	.ttg_logo { font-size: 22px; }}
+		@media screen and (max-width: 480px)	{	.ttg_logo { font-size: 22px; }}
+		@media screen and (max-width: 380px)	{	.ttg_logo { font-size: 18px; }}
+		@media screen and (max-width: 300px)	{	.ttg_logo { font-size: 18px; }}
+		@media screen and (max-width: 240px)	{	.ttg_logo { font-size: 16px; }}
+		
+		
+		.homebutton
+					{
+						display:				inline-block;
+						margin-bottom:	2px;
+						padding:			2px 5px;
+						vertical-align:		middle;
+		
+						width:				40px;
+						height:				40px;
+						line-height:			40px;
+		
+						border:				none;
+						border-radius:		15%;
+		
+						font-weight:		200;
+						font-size: 			14px;
+						text-decoration:	none;
+						text-align:			center;
+		
+						background-color:	#5555ff;
+						color:				white;
+					}
+		/*	-----------------------------------------------------------
+			PAGE TITLE / FB BUTTON / HR
+			----------------------------------------------------------- */
+		.page_title	{
+						display:				inline;
+						text-align:			left;
+						margin-left:		15px;
+		
+						line-height:			28px;
+		
+						font-size:			24px;
+						font-weight:		400;
+						color:				#000088;
+		/*				text-shadow:		2px 2px 4px #666666; */
+		/*				text-shadow:		2px 2px 4px #aaaaaa; */
+						text-shadow:		4px 4px 8px #cccccc;
+					}
+		@media screen and (min-width: 600px)	{	.page_title { margin-left: 15px; }}
+		@media screen and (max-width: 599px)	{	.page_title { margin-left: 10px;	font-size: 22px; }}
+		@media screen and (max-width: 480px)	{	.page_title { margin-left: 10px;	font-size: 22px; }}
+		@media screen and (max-width: 380px)	{	.page_title { margin-left: 5px;	font-size: 18px; }}
+		@media screen and (max-width: 300px)	{	.page_title { margin-left: 3px;	font-size: 18px; }}
+		@media screen and (max-width: 240px)	{	.page_title { margin-left: 3px;	font-size: 16px; }}
+		
+		.page_title_sub	{
+				/*		display:				inline; */
+						text-align:			left;
+						margin-left:		15px;
+		
+						line-height:			20px;
+		
+						font-size:			18px;
+						font-weight:		400;
+						color:				#000088;
+					}
+		.fbbutton	{
+						display:				inline-block;
+						border:				none;
+						margin-bottom:	2px;
+						padding:			2px 5px;
+						vertical-align:		middle;
+					}
+		hr			{
+						-moz-box-sizing:	content-box;
+						box-sizing:			content-box;
+						height:				0;
+						border:				0;
+						border-top:			1px solid #bbb;
+						margin:			10px 0;
+					}
+		/*	-------------------------------------------------------------------- 
+			MAIN / ARTICLE TITLE
+			-------------------------------------------------------------------- */
+		.maintext	{
+						margin-right:		8px;
+						margin-left:		10px;
+					}
+		article h2	{
+						font-size:			20px;
+						font-weight:		400;
+						color:				#000088;
+					}
+		/*	-------------------------------------------------------------------- 
+			FOOTER
+			-------------------------------------------------------------------- */
+		footer		{
+						text-decoration:	none;
+						text-align:			center;
+						font-size:			12px;
+					}
+		.disclaimer_home
+					{
+						text-decoration:	underline;
+						color:				white; 
+					}
+		.disclaimer {
+						text-decoration:	underline;
+						color:				blue; 
+					}
+		/*	-------------------------------------------------------------------- 
+			TOP PAGE ONLY
+			-------------------------------------------------------------------- */
+		.topdiv		{
+						position:			relative;
+						background-size:	contain;
+						width:				100%;
+						margin:			0;
+						padding:			0;
+						top:				0;
+						bottom:			0;
+						left:				0;
+					/*	right:				0;	*/
+					}
+		.topsubdiv {
+						position:		absolute;
+						vertical-align:	middle;
+						height:			80%;
+						left:			15px;
+						top:			10%;
+					}
+		.topimg		{
+						width:			100%;
+		
+						margin:		0;
+						padding:		0;
+		
+						top:			0;
+						left:			0;
+						right:			0;
+						bottom:		0;
+					}
+		.toptxt		{
+						position:		absolute;
+						width:			100%;
+						top:			5px;
+						text-align:		center;
+						color:			#fff;
+					}
+		.subtxt		{
+						width:				100%;
+						text-align:			center;
+						vertical-align:		bottom;
+						position:			absolute;
+						left:				10px;
+						bottom:			10px;
+						color:				#fff;
+						font-size:			18px;
+						font-weight:		200;
+		
+						margin:			0;
+						padding:			0;
+					}
+		.fbicon		{
+						text-align:			right;
+						vertical-align:		bottom;
+						position:			absolute;
+						right:				5px;
+						bottom:			3px;
+		
+						margin:			0;
+						padding:			0;
+					}
+		/*	-------------------------------------------------------------------- 
+			SPECIFIC / NOT USED
+			-------------------------------------------------------------------- */
+		.town_photo_r {
+						width:				40%;
+						float:				right;
+						margin-left:		0;
+						margin-right:		0;
+						margin-top:		0;
+						margin-bottom:	0;
+		}
+		.button, .qbutton {
+						text-decoration:	none;
+						display:				inline-block;
+						vertical-align:		middle;
+						padding:			4px 8px;
+						font-size: 			inherit;
+						border:				none;
+		}
+		.button		{
+						color:				inherit;
+						text-align:			center;
+						width:				44%;
+					/*	width:				70%;	*/
+						margin-bottom:		3px;
+					}
+		.obutton	{ /* open/close */
+						color:				white;
+						background-color:	green;
+						text-align:			center;
+						margin-bottom:		2px;
+						border-radius:		4px;
+						text-decoration:	none;
+					}
+		.qbutton	{	/* question */
+						color:				white;
+						background-color:	blue;
+						text-align:			left;
+						width:				98%;
+						margin-bottom:		2px;
+						border-radius:		4px;
+					}
+		.qbutton:before {content:"★"; color:yellow; font-weight:bold}
+		</style>
+<!-- END ) src/src/pt/blue.css.x -->
+
+</head>
+<body class="whitebody">
+	
+<!-- BEGIN ( src/src/pt/js-chk.x -->
+<noscript>Javascript is required to view this website. Please enable Javascript on your browser.</noscript><!-- END ) src/src/pt/js-chk.x -->
+
+	
+<!-- BEGIN ( src/src/pt/top-banner.x -->
+<div class="page_banner_area" onClick="location.href='index.html'">
+	<div class="xcella"><a class="homebutton" href="index.html">Home</a>	</div>
+	<div class="xcellb"><p class="ttg_logo">Tokyo Transport Guide</p>		</div>
+	<div class="xcellc">													</div>
+</div>
+<!-- END ) src/src/pt/top-banner.x -->
+
+	
+<!-- BEGIN ( src/src/pt/page-title.x -->
+<div class="page_title_area">
+	<div class="ycella">
+		<h1 class="page_title">How to buy & use SUICA & PASMO cards</h1>
+	</div>
+	<div class="ycellb">
+		<a class="fbbutton" href="https://www.facebook.com/TokyoTransportGuide/">
+			<img src="../img/web/fb29x29.png" alt="facebook"/>
+		</a>
+	</div>
+</div>
+<!-- END ) src/src/pt/page-title.x -->
+
+	
+<!-- BEGIN ( src/src/body/ic-cards.x -->
+<main class="maintext">
+
+<img style="width:40%" src="../img/item/Pasmo.jpg" alt="PASMO"> &nbsp;
+<img style="width:40%" src="../img/item/Suica.jpg" alt="SUICA"><br>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>What are SUICA and PASMO?</h2>
+A SUICA or PASMO is a prepaid IC card for riding trains and buses, and for shopping and eating out. They are 100% compatible except for refund.<br>
+<br>
+</article>
+
+<h2>Would you recommend me to get a SUICA/PASMO card?</h2>
+Yes, absolutely. Most shops in and around stations accept SUICA/PASMO as payment method. You will see people paying for almost anything with SUICA/PASMO. You can also use them at coffee shops, noodle restaurants, convenience stores, vending machines, coin lockers and a lot more.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>Where and how can I buy a SUICA/PASMO?</h2>
+You can buy a PASMO/SUICA at train stations, from a ticket vending machine or at a ticket window. Then you can 'charge' (top up) them at any time, using a ticket vending machine again. As far as I've seen, every ticket vending machines in Metropolitan Tokyo seems to have an 'English' button on screen. A child's SUICA/PASMO can be bought at a ticket window by showing an ID to proof the age.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>What is the difference between SUICA and PASMO?</h2>
+SUICA and PASMO have no differences in functionality. But you can return your card and get the deposit back only from the company that issues the type of your SUICA/PASMO. SUICA is issued by JR East company, and PASMO is issued by a joint company established by other public transport operators. You can use them interchangeably, so choosing a SUICA or PASMO is just a matter of preference.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>Is there SUICA/PASMO for children?</h2>
+Yes. You can buy a named SUICA/PASMO for a child from a train station staff, by showing the ID of the child. Only the child named on the card will be authorized to use it.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>What is the price of SUICA/PASMO?</h2>
+You can buy a SUICA/PASMO for 1,000 / 2,000 / 3,000 / 5,000 yen. Each price includes 500 yen deposit. For example, a 2,000 yen card comes with 500 yen deposit and 1,500 yen credit for use. You can top up (=charge) your card later at any time, using a ticket vending machine at a train station. With ticket machines at JR train stations, you can top up by 500 yen, 1,000 yen, and so on. At Keikyu or Keisei train stations, you can top up by multiples of 10 yen.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>How do I charge (= top up) my SUICA/PASMO?</h2>
+You can charge your card using ticket machines at train or subway stations.<br>
+With JR East ticket machines, the minimum amount of charge is 500 yen.
+With Keisei or Keikyu ticket machines, the minimum amount of charge is 10 yen.
+You can charge up to 20,000 yen for a card.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>Can I return my SUICA/PASMO and get a refund?</h2>
+Yes, with a fee as follows:<br>
+<h4>SUICA</h4>
+If the remaining balance is 220 yen or less, you get back 500 yen deposit.<br>
+If the remaining balance is more than 220 yen, you get back 500 yen deposit plus the balance minus 220 yen.<br>
+<h4>PASMO</h4>
+If the remaining balance is 210 yen or less, you get back 500 yen deposit.<br>
+If the remaining balance is more than 210 yen, you get back 500 yen deposit plus the balance minus 210 yen.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>What is the difference between named and unnamed SUICA/PASMO?</h2>
+If you are a traveler above 12 years old, you can simply buy an unnamed SUICA/PASMO, and will not need a named SUICA/PASMO. But if you are curious, here is more detail:<br>
+A named SUICA/PASMO requires your name, birth date and phone number information when you buy it. When you have lost a named SUICA, you can apply for the reissuance of your card for a fee of 1,080 yen by showing your ID. A named SUICA/PASMO cannot be used by another person. A named SUICA/PASMO can also be a commuter pass. (In other words, an IC card commuter pass must be a named SUICA/PASMO.) A SUICA/PASMO for a child (roughly spaking, age 6-12) must be a named SUICA because of age validation.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>Can I use my SUICA/PASMO anywhere in Japan?</h2>
+Yes. SUICA/PASMO is compatible with many cards issued in other areas of Japan. So you can use SUICA/PASMO where those comptible cards are valid.<br>
+But you cannot use them when you cross the border between different issuers or different JR company areas.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>Can I use my SUICA/PASMO for a train ride from Tokyo to Osaka? Or from Osaka to Fukuoka?</h2>
+No. You cannot travel 'across' SUICA/PASMO area and other areas using SUICA/PASMO. You'll need to buy paper tickets in such cases.<br>
+<br>
+</article>
+
+<!-- ----- ARTICLE ----- -->
+<article>
+<h2>Can I ride a Shinkansen (bullet train) with my SUICA/PASMO?</h2>
+No. You need a separate ticket for Shinkansen.<br>
+<br>
+</article>
+
+</main>
+<!-- END ) src/src/body/ic-cards.x -->
+
+	
+<!-- BEGIN ( src/src/pt/bottom-banner.x -->
+<br>
+<div class="page_banner_area">
+	<div class="xcella"><a class="homebutton"  href="index.html">Home</a>										</div>
+	<div class="xcellb"><h1 class="ttg_logo" onClick="location.href='index.html'">Tokyo Transport Guide</h1>	</div>
+	<div class="xcellc">																						</div>
+</div>
+<!-- END ) src/src/pt/bottom-banner.x -->
+
+	
+<!-- BEGIN ( src/src/pt/footer.x -->
+<footer>
+<br>
+Copyright &copy; 2015-2024 TokyoTransportGuide.com
+<a rel="nofollow" target="_blank" href="disclaimer.html" class="disclaimer">Disclaimer</a>
+<a rel="nofollow" target="_blank" href="privacypolicy.html" class="disclaimer">Privacy Policy</a>
+<p>
+<a rel="nofollow" target="_blank" href="https://jigsaw.w3.org/css-validator/check/referer">
+	<img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+</p>
+</footer>
+<!-- END ) src/src/pt/footer.x -->
+
+</body>
+</html>

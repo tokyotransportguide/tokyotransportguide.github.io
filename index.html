@@ -1,0 +1,676 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	
+<!-- BEGIN ( src/src/pt/root-head.x -->
+	<link rel="canonical"		href="https://tokyotransportguide.com/index.html">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7724255735811745"
+		crossorigin="anonymous">
+	</script>
+	<meta name="description"		content="Getting around in Tokyo by trains & subways | Arriving at Narita/Haneda airport | IC cards | Cheap trains from Narita">
+	<meta name="keywords"			content="Tokyo,train,subway,metro,ticket,SUICA,airport,Narita,Haneda,timetable,how,cheap,price">
+	<meta property="og:url"			content="https://tokyotransportguide.com/index.html">
+	<meta property="og:type"		content="website">
+	<meta property="og:title"		content="Tokyo Transport Guide">
+	<meta property="og:description"	content="Getting around in Tokyo by trains & subways | Arriving at Narita/Haneda airport | IC cards | Cheap trains from Narita">
+	<meta property="og:site_name"	content="Tokyo Transport Guide">
+
+	<meta name="B-verify"			content="cc70ad4ebf150488c639b07c2b12f102523e87e8">
+	<meta property="og:image"		content="//tokyotransportguide.com/img/bg/bayw.jpg">
+	<meta property="fb:app_id"		content="106196616752372">
+
+	<title>Tokyo Transport Guide</title>
+<!-- END ) src/src/pt/root-head.x -->
+
+	
+<!-- BEGIN ( src/src/pt/blue.css.x -->
+	<style>
+		/*	-------------------------------------------------------------------- 
+			HEADER / BODY / JS CHECK
+			-------------------------------------------------------------------- */
+		html		{
+						-ms-text-size-adjust:		100%;
+						-webkit-text-size-adjust:	100%;
+					}
+		.bluebody, .whitebody
+					{
+						margin:				0px;
+						padding:				0px;
+						top:					0;
+						line-height:				1.5;
+		
+						font-family:				sans-serif;
+					}
+		.bluebody	{
+		/*				background-color:		blue; */
+		/*				background-image:		url("../img/sea.png"); */
+						background-color:		#fcfcfc;;
+						color:					black;
+					}
+		.whitebody {
+						background-color:		#fbfbfd;
+						color:					black;
+					}
+		noscript	{
+						text-align:				center;
+						font-weight:			bold;
+					}
+		/*	-----------------------------------------------------------
+			GENERIC IMG RULES
+			----------------------------------------------------------- */
+		img			{max-width:100%; height:auto}
+		/* 2019/07/14 addressing error
+		 .halfw		{width:49%} */
+		.halfw		{width:47%}
+		.fullw		{width:98%}
+		.img_wide	{width:98%}
+		
+		/* 2017-12-3  for n-t by keisei */
+		@media screen and (min-width: 1280px)	{	.img_big { width: 50%;		float: right; }}
+		@media screen and (max-width: 1280px)	{	.img_big { width: 640px;		float: right; }}
+		@media screen and (max-width: 1100px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 1000px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 900px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 800px)	{	.img_big { width: 600px;		float: right; }}
+		@media screen and (max-width: 700px)	{	.img_big { width: 600px;		}}
+		@media screen and (max-width: 640px)	{	.img_big { width: 96%;		}}
+		.img_wide_div {
+				overflow: hidden;
+				width: 98%;
+				border: 1px solid #d0c0e0; 
+				padding: 4px;
+				min-height: 1px;
+				background-color: #f4f0e8;
+				zoom: 1; }
+		.img_wide_div:after { clear: both; }
+		
+		/*	-----------------------------------------------------------
+			BANNER "Tokyo Transport Guide" / PAGE TITLE
+			----------------------------------------------------------- */
+		.page_banner_area, .page_title_area
+						{
+							/* from E.P. >>*/
+							display:					table;
+							box-sizing:				border-box;
+							top:					0px;
+							left:					0px;
+							/* << from E.P. */
+		
+							position:				relative;
+		
+							margin:				0px;
+							padding:				0px;
+							border:					0px;
+							border-spacing:		0px;
+		
+							width:					100%;
+		
+							vertical-align:			middle;
+						}
+		.page_banner_area
+						{
+							text-align:				center;
+		
+							background:			#aaaaff;
+							background:			-webkit-linear-gradient(#aaaaff, #bbffbb);
+							background:			-o-linear-gradient(#aaaaff, #bbffbb);
+							background:			-moz-linear-gradient(#aaaaff, #bbffbb);
+							background:			linear-gradient(#aaaaff, #bbffbb);
+		
+							cursor:					pointer;	/* 2017-11-02 */
+						}
+		.page_title_area
+						{
+							height:					40px;
+		
+						/*	background-color:		#ffffcc; */
+							background-color:		#ffe8e0;
+						}
+				.xcella,
+				.xcellb,
+				.xcellc,
+				.ycella,
+				.ycellb
+						{
+							display:				table-cell;
+							box-sizing:			border-box;
+							vertical-align:		middle;
+		
+							margin:			0px;
+							border:				0px;
+							border-spacing:	0px;
+							padding:			0px 0px 0px 0px;
+						}
+				.xcella,
+				.xcellb,
+				.xcellc	{
+							line-height:			60px;
+							text-align:			center;
+						}
+				.xcella	{	width:	60px;	padding:	0px 0px 0px 0px;	}
+				.xcellb	{		 			padding:	0px 0px 0px 0px;	}
+				.xcellc	{	width:	60px;	padding:	0px 0px 0px 0px;	}
+		
+				.ycella,
+				.ycellb	{	line-height:	38px;								}
+				.ycela	{		 			padding:	0px 0px 0px 0px;	}
+				.ycellb	{	width:	50px;	padding:	12px 0px 0px 0px;	}
+		/*	-----------------------------------------------------------
+			TTG LOGO / HOME BUTTON
+			----------------------------------------------------------- */
+		.ttg_logo	/* "Tokyo Transport Guide" logo */
+					{
+						margin:			0;
+						padding:			0;
+		
+						width:				100%;
+						height:				100%;
+						line-height:			1em;
+		
+						text-align:			center;
+						vertical-align:		middle;
+		
+						font-size:			24px;
+						font-weight:		400;
+						color:				white;
+					}
+		
+		@media screen and (min-width: 600px)	{	.ttg_logo { }}
+		@media screen and (max-width: 599px)	{	.ttg_logo { font-size: 22px; }}
+		@media screen and (max-width: 480px)	{	.ttg_logo { font-size: 22px; }}
+		@media screen and (max-width: 380px)	{	.ttg_logo { font-size: 18px; }}
+		@media screen and (max-width: 300px)	{	.ttg_logo { font-size: 18px; }}
+		@media screen and (max-width: 240px)	{	.ttg_logo { font-size: 16px; }}
+		
+		
+		.homebutton
+					{
+						display:				inline-block;
+						margin-bottom:	2px;
+						padding:			2px 5px;
+						vertical-align:		middle;
+		
+						width:				40px;
+						height:				40px;
+						line-height:			40px;
+		
+						border:				none;
+						border-radius:		15%;
+		
+						font-weight:		200;
+						font-size: 			14px;
+						text-decoration:	none;
+						text-align:			center;
+		
+						background-color:	#5555ff;
+						color:				white;
+					}
+		/*	-----------------------------------------------------------
+			PAGE TITLE / FB BUTTON / HR
+			----------------------------------------------------------- */
+		.page_title	{
+						display:				inline;
+						text-align:			left;
+						margin-left:		15px;
+		
+						line-height:			28px;
+		
+						font-size:			24px;
+						font-weight:		400;
+						color:				#000088;
+		/*				text-shadow:		2px 2px 4px #666666; */
+		/*				text-shadow:		2px 2px 4px #aaaaaa; */
+						text-shadow:		4px 4px 8px #cccccc;
+					}
+		@media screen and (min-width: 600px)	{	.page_title { margin-left: 15px; }}
+		@media screen and (max-width: 599px)	{	.page_title { margin-left: 10px;	font-size: 22px; }}
+		@media screen and (max-width: 480px)	{	.page_title { margin-left: 10px;	font-size: 22px; }}
+		@media screen and (max-width: 380px)	{	.page_title { margin-left: 5px;	font-size: 18px; }}
+		@media screen and (max-width: 300px)	{	.page_title { margin-left: 3px;	font-size: 18px; }}
+		@media screen and (max-width: 240px)	{	.page_title { margin-left: 3px;	font-size: 16px; }}
+		
+		.page_title_sub	{
+				/*		display:				inline; */
+						text-align:			left;
+						margin-left:		15px;
+		
+						line-height:			20px;
+		
+						font-size:			18px;
+						font-weight:		400;
+						color:				#000088;
+					}
+		.fbbutton	{
+						display:				inline-block;
+						border:				none;
+						margin-bottom:	2px;
+						padding:			2px 5px;
+						vertical-align:		middle;
+					}
+		hr			{
+						-moz-box-sizing:	content-box;
+						box-sizing:			content-box;
+						height:				0;
+						border:				0;
+						border-top:			1px solid #bbb;
+						margin:			10px 0;
+					}
+		/*	-------------------------------------------------------------------- 
+			MAIN / ARTICLE TITLE
+			-------------------------------------------------------------------- */
+		.maintext	{
+						margin-right:		8px;
+						margin-left:		10px;
+					}
+		article h2	{
+						font-size:			20px;
+						font-weight:		400;
+						color:				#000088;
+					}
+		/*	-------------------------------------------------------------------- 
+			FOOTER
+			-------------------------------------------------------------------- */
+		footer		{
+						text-decoration:	none;
+						text-align:			center;
+						font-size:			12px;
+					}
+		.disclaimer_home
+					{
+						text-decoration:	underline;
+						color:				white; 
+					}
+		.disclaimer {
+						text-decoration:	underline;
+						color:				blue; 
+					}
+		/*	-------------------------------------------------------------------- 
+			TOP PAGE ONLY
+			-------------------------------------------------------------------- */
+		.topdiv		{
+						position:			relative;
+						background-size:	contain;
+						width:				100%;
+						margin:			0;
+						padding:			0;
+						top:				0;
+						bottom:			0;
+						left:				0;
+					/*	right:				0;	*/
+					}
+		.topsubdiv {
+						position:		absolute;
+						vertical-align:	middle;
+						height:			80%;
+						left:			15px;
+						top:			10%;
+					}
+		.topimg		{
+						width:			100%;
+		
+						margin:		0;
+						padding:		0;
+		
+						top:			0;
+						left:			0;
+						right:			0;
+						bottom:		0;
+					}
+		.toptxt		{
+						position:		absolute;
+						width:			100%;
+						top:			5px;
+						text-align:		center;
+						color:			#fff;
+					}
+		.subtxt		{
+						width:				100%;
+						text-align:			center;
+						vertical-align:		bottom;
+						position:			absolute;
+						left:				10px;
+						bottom:			10px;
+						color:				#fff;
+						font-size:			18px;
+						font-weight:		200;
+		
+						margin:			0;
+						padding:			0;
+					}
+		.fbicon		{
+						text-align:			right;
+						vertical-align:		bottom;
+						position:			absolute;
+						right:				5px;
+						bottom:			3px;
+		
+						margin:			0;
+						padding:			0;
+					}
+		/*	-------------------------------------------------------------------- 
+			SPECIFIC / NOT USED
+			-------------------------------------------------------------------- */
+		.town_photo_r {
+						width:				40%;
+						float:				right;
+						margin-left:		0;
+						margin-right:		0;
+						margin-top:		0;
+						margin-bottom:	0;
+		}
+		.button, .qbutton {
+						text-decoration:	none;
+						display:				inline-block;
+						vertical-align:		middle;
+						padding:			4px 8px;
+						font-size: 			inherit;
+						border:				none;
+		}
+		.button		{
+						color:				inherit;
+						text-align:			center;
+						width:				44%;
+					/*	width:				70%;	*/
+						margin-bottom:		3px;
+					}
+		.obutton	{ /* open/close */
+						color:				white;
+						background-color:	green;
+						text-align:			center;
+						margin-bottom:		2px;
+						border-radius:		4px;
+						text-decoration:	none;
+					}
+		.qbutton	{	/* question */
+						color:				white;
+						background-color:	blue;
+						text-align:			left;
+						width:				98%;
+						margin-bottom:		2px;
+						border-radius:		4px;
+					}
+		.qbutton:before {content:"★"; color:yellow; font-weight:bold}
+		</style>
+<!-- END ) src/src/pt/blue.css.x -->
+
+	
+<!-- BEGIN ( src/src/pt/root-style.x -->
+	<style>
+	<!--
+		.ttl	{
+					text-shadow:		2px 2px 4px #d0d0d0,
+										0px 0px 8px pink;
+				}
+@media screen and (min-width: 1280px)	{	.pp { width: 22%; margin: 1%; } }
+@media screen and (max-width: 1280px)	{	.pp { width: 22%; margin: 1%; } }
+@media screen and (max-width: 800px)	{	.pp { width: 30%; margin: 1%; } }
+@media screen and (max-width: 640px)	{	.pp { width: 45%; margin: 2%; } }
+@media screen and (max-width: 480px)	{	.pp { width: 45%; margin: 2%; } }
+@media screen and (max-width: 400px)	{	.pp { width: 45%; margin: 2%; } }	/* 2017-11-02 added */
+@media screen and (max-width: 320px)	{	.pp { width: 45%; margin: 2%; } }	/* 2017-11-02 added */
+/* @media screen and (max-width: 320px)	{	.pp { width: 91%; margin: 4%; } } */
+@media screen and (max-width: 240px)	{	.pp { width: 91%; margin: 4%; } }
+
+@media screen and (min-width: 1280px)	{	.ttl {	font-size: 40px; } }
+@media screen and (max-width: 1280px)	{	.ttl {	font-size: 36px; } }
+@media screen and (max-width: 800px)	{	.ttl {	font-size: 32px; } }
+@media screen and (max-width: 640px)	{	.ttl {	font-size: 28px; } }
+@media screen and (max-width: 480px)	{	.ttl {	font-size: 24px; } }
+@media screen and (max-width: 400px)	{	.ttl {	font-size: 24px; } }	/* 2017-11-02 added */
+@media screen and (max-width: 320px)	{	.ttl {	font-size: 20px; } }
+@media screen and (max-width: 240px)	{	.ttl {	font-size: 16px; } }
+
+		.narration
+				{
+					margin-left:		10px;
+					font-style:			italic;
+				}
+		nav h2	{
+					background-color:	blue;
+					color:				white;
+					font-family:		sans-serif;
+					text-align:			left;
+				}
+		.pp		{
+					display:			inline-block;
+					padding:			0px;
+					border:				0px;
+					box-sizing:			border-box;
+					vertical-align:		middle;
+					box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+					text-align:			center;
+				}
+		.coltxt, .coltxt_green, .coltxt_cyan, .coltxt_blue, .coltxt_yellow, .coltxt_orange, .coltxt_red,
+		.coltxt_gray, .coltxt_white,
+		.coltxt_blue_s
+				{
+					color:				white;
+					padding:			10px;
+					font-size:			80px;
+					text-decoration:	none;
+					font-family:		"Segoe UI Emoji";
+				}
+		.coltxt_green		{ background-color:	green;	}
+		.coltxt_cyan		{ background-color:	cyan;	}
+		.coltxt_blue		{ background-color:	blue;	}
+		.coltxt_yellow		{ background-color:	yellow;	}
+		.coltxt_orange		{ background-color:	orange;	}
+		.coltxt_red			{ background-color:	red;	}
+		.coltxt_pink		{ background-color:	pink;	}
+		.coltxt_gray		{ background-color:	gray;	}
+		.coltxt_white		{ background-color:	white;	}
+		.coltxt_blue_s		{ background-color:	blue;	}
+		.coltxt_blue_s		{ font-size: 33px;			}
+
+		.pp img
+				{
+					width:				100%;
+				}
+		.txt
+				{
+					padding:			10px;
+					min-height:			50px;
+				}
+		a		{
+					text-decoration:	none;
+				}
+		.mainfeed
+				{
+					margin-right:		0px;
+					margin-left:		0px;
+				}
+
+	-->
+	</style>
+<!-- END ) src/src/pt/root-style.x -->
+
+	
+<!-- BEGIN ( src/src/pt/analytics.x -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-73103058-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-73103058-1');
+</script>
+<!-- END ) src/src/pt/analytics.x -->
+
+</head>
+<body class="bluebody">
+	
+<!-- BEGIN ( src/src/pt/js-chk.x -->
+<noscript>Javascript is required to view this website. Please enable Javascript on your browser.</noscript><!-- END ) src/src/pt/js-chk.x -->
+
+	
+<!-- BEGIN ( src/src/pt/root-top.x -->
+<div class="topdiv">
+	<img class="topimg" src="img/bg/bayw.jpg" alt="Tokyo - Odaiba and Rainbow Bridge">
+	<div class="topsubdiv"><img style="height: 100%;" src="img/bg/ttg_train.jpg" alt="Shinkansen - bullet train" /></div>
+
+	<div class="toptxt">
+		<div class="ttl">Tokyo Transport Guide</div>
+	</div>
+	<div class="subtxt">How to get around in Tokyo</div>
+	<div class="fbicon">
+		<a class="fbbutton" href="//www.facebook.com/TokyoTransportGuide/">
+			<img src="img/web/fb29x29.png" alt="facebook"/>
+		</a>
+	</div>
+</div>
+<hr>
+<!-- END ) src/src/pt/root-top.x -->
+
+	
+<!-- BEGIN ( src/src/body/root-body.x -->
+<main class="mainfeed">
+
+<nav>
+
+<!--
+<section>
+<h2 style="background-color: orange">&nbsp; On March 14, Haneda Airport Terminals and facilities will be renamed.</h2>
+<div class="narration" style="background-color: cyan">
+See <a href="haneda-airport-terminals-renaming.html">Haneda Airport Terminals Renaming in 2020</a> for detais.
+</div>
+</section>
+-->
+
+<section>
+<h2>&nbsp; Narita Airport</h2>
+
+<a class="pp" href="en/narita-airport.html"><img src="img/top/top_narita_terminals_400x300.jpg" alt="Narita Airport Terminals 1 2 3 - Free Shuttle Bus or Walk">
+<!-- <div class="coltxt_blue">✈️</div> -->
+	<div class="txt">Narita Airport Terminals: 1, 2, 3<br>Free Shuttle Bus or Walk</div>
+</a>
+
+<a class="pp" href="en/narita-to-city.html"><img src="img/top/top_nex_400x300.jpg" alt="Narita Airport to Tokyo">
+	<div class="txt">Narita Airport ➔ Tokyo<br>Overview</div>
+</a>
+
+<a class="pp" href="en/narita-to-city-by-keisei.html">
+	<img src="img/top/top_narita_keisei_400x300.jpg" alt="Narita Airport to Tokyo by Keisei Line Train">
+	<div class="txt">Narita Airport ➔ Tokyo by Keisei Line</div>
+</a>
+
+<a class="pp" href="en/keisei-line-timetables.html"><div class="coltxt_blue">🕒</div>
+	<div class="txt">Keisei Line Timetable & Route Map Links</div>
+</a>
+
+<a class="pp" href="en/narita-to-city-by-sobu-yokosuka-line.html">
+	<img src="img/top/top_sobu_yokosuka_400x300.jpg" alt="Narita Airport to Tokyo by JR Sobu Yokosuka Line Train">
+	<div class="txt">Narita Airport ➔ Tokyo by Sobu-Yokosuka Line</div>
+</a>
+
+<a class="pp" href="en/narita-to-haneda-by-train.html"><div class="coltxt_blue">✈️→✈️</div>
+	<div class="txt">Narita Airport to Haneda Airport by Direct Train</div>
+</a>
+
+</section>
+
+<section>
+<h2 style="background-color: green">&nbsp; Haneda Airport</h2>
+<a class="pp" href="en/haneda-airport.html"><img src="img/top/top_hnd_terminals_400x300.jpg" alt="Haneda Airport Shuttle Bus between Terminals">
+<!--	<div class="coltxt_green">✈️</div> -->
+	<div class="txt">Haneda Airport Terminals: 1, 2, International<br>Free Shuttle Bus / Walk</div>
+</a>
+
+<a class="pp" href="en/haneda-to-city.html"><img src="img/top/top_hnd_400x300.jpg" alt="Haneda Airport to Tokyo">
+	<div class="txt">Haneda Airport ➔ Tokyo<br>Overview</div>
+</a>
+</section>
+
+
+<section>
+<h2 style="background-color: #f88">&nbsp; Public Transport of Tokyo</h2>
+
+<a class="pp" href="en/ic-cards.html"><img src="img/item/Suica.jpg" alt="Suica">
+	<div class="txt">IC cards - SUICA & PASMO</div>
+</a>
+
+<a class="pp" href="en/trains.html"><img src="img/rail/yamanote.png" alt="Yamanote Line">
+	<div class="txt">Train Network<br>Most Important Lines</div>
+</a>
+
+<a class="pp" href="en/tokyo-train-basics.html"><div class="coltxt_blue">🚇</div>
+	<div class="txt">Metropolitan Tokyo Trains & Subways<br>🚧🚧🚧</div>
+</a>
+
+<a class="pp" href="en/transportation.html"><div class="coltxt_yellow">❓</div>
+	<div class="txt">Public Transport Q&A<br>🚧🚧🚧</div>
+</a>
+</section>
+
+
+<section>
+<h2 style="background-color: #555">&nbsp; About TOKYO</h2>
+
+<a class="pp" href="en/tokyo-areas.html"><img src="img/top/top_roppongi_400x300.jpg" alt="Areas of Tokyo">
+	<div class="txt">Destinations 🗼<br>🚧🚧🚧</div>
+</a>
+
+<a class="pp" href="en/asakusa.html"><div class="coltxt_green">⛩️</div>
+	<div class="txt">About Asakusa Town</div>
+</a>
+
+<a class="pp" href="en/tokyo.html"><img src="img/top/top_logo_tokyo_400x300.png" alt="Tokyo">
+	<div class="txt">About Tokyo<br>🚧🚧🚧</div>
+</a>
+</section>
+
+
+<section>
+<h2 style="background-color: orange">&nbsp; About JAPAN</h2>
+
+<a class="pp" href="en/basic.html"><div class="coltxt_yellow">❕</div>
+	<div class="txt">Some Useful Tips & Facts<br></div>
+</a>
+
+<a class="pp" href="en/japanese-phrases.html"><div class="coltxt_green">あ!</div>
+	<div class="txt">Japanese Phrases 📖<br>for Public Transport</div>
+</a>
+
+<a class="pp" href="en/food.html"><div class="coltxt_red">🍣</div>
+	<div class="txt">Food 🍣🍜<br>🚧🚧🚧</div>
+</a>
+
+<a class="pp" href="en/events.html"><div class="coltxt_gray">⛄</div>
+	<div class="txt">Seasonal Factors<br>🚧🚧🚧</div>
+</a>
+
+<a class="pp" href="en/japan-qa.html"><div class="coltxt_blue">🗾</div>
+	<div class="txt">About Japan<br>🚧🚧🚧</div>
+</a>
+
+<a class="pp" href="en/foreword.html"><div class="coltxt_white">💭</div>
+	<div class="txt">About this site...</div>
+</a>
+</section>
+
+</nav>
+
+</main>
+<!-- END ) src/src/body/root-body.x -->
+
+	
+<!-- BEGIN ( src/src/pt/footer.x -->
+<footer>
+<br>
+Copyright &copy; 2015-2024 TokyoTransportGuide.com
+<a rel="nofollow" target="_blank" href="disclaimer.html" class="disclaimer">Disclaimer</a>
+<a rel="nofollow" target="_blank" href="privacypolicy.html" class="disclaimer">Privacy Policy</a>
+<p>
+<a rel="nofollow" target="_blank" href="https://jigsaw.w3.org/css-validator/check/referer">
+	<img style="border:0;width:88px;height:31px"
+        src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+</a>
+</p>
+</footer>
+<!-- END ) src/src/pt/footer.x -->
+
+</body>
+</html>
