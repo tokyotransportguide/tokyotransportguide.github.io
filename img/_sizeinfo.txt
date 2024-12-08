@@ -1,0 +1,231 @@
+
+C:\x\hp\main\ttg\src\img>imginfo wide.jpg 
+[wide.jpg] width=480 height=128
+
+C:\x\hp\main\ttg\src\img>imginfo sea.png 
+[sea.png] width=128 height=128
+
+C:\x\hp\main\ttg\src\img>imginfo train20x20.png 
+[train20x20.png] width=20 height=20
+
+C:\x\hp\main\ttg\src\img>imginfo bg\bayw.jpg 
+[bg\bayw.jpg] width=1024 height=320
+
+C:\x\hp\main\ttg\src\img>imginfo bg\bayw_640x480.jpg 
+[bg\bayw_640x480.jpg] width=640 height=200
+
+C:\x\hp\main\ttg\src\img>imginfo bg\bay_and_train.jpg 
+[bg\bay_and_train.jpg] width=1024 height=192
+
+C:\x\hp\main\ttg\src\img>imginfo bg\ttg_bg.jpg 
+[bg\ttg_bg.jpg] width=1024 height=768
+
+C:\x\hp\main\ttg\src\img>imginfo bg\ttg_train.jpg 
+[bg\ttg_train.jpg] width=400 height=400
+
+C:\x\hp\main\ttg\src\img>imginfo bg\ttg_train_128.jpg 
+[bg\ttg_train_128.jpg] width=128 height=128
+
+C:\x\hp\main\ttg\src\img>imginfo food\korokke-soba.jpg 
+[food\korokke-soba.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo food\korokke-soba2.jpg 
+[food\korokke-soba2.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo food\soba-stand.jpg 
+[food\soba-stand.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo food\soba-ticket-machine.jpg 
+[food\soba-ticket-machine.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Airport_Bridge.jpg 
+[haneda\Haneda_Airport_Bridge.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Airport_Keikyu_Station_Platform.jpg 
+[haneda\Haneda_Airport_Keikyu_Station_Platform.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Airport_Main_Hall.jpg 
+[haneda\Haneda_Airport_Main_Hall.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Free_Shuttle_Bus_Between_Terminals.jpg 
+[haneda\Haneda_Free_Shuttle_Bus_Between_Terminals.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Keikyu.jpg 
+[haneda\Haneda_Keikyu.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Monorail.jpg 
+[haneda\Haneda_Monorail.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Monorail_Ticket_Machine_and_Entrance_Gate.jpg 
+[haneda\Haneda_Monorail_Ticket_Machine_and_Entrance_Gate.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Path_Between_Terminals.jpg 
+[haneda\Haneda_Path_Between_Terminals.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_Path_Between_Terminals_Auto_Path.jpg 
+[haneda\Haneda_Path_Between_Terminals_Auto_Path.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo haneda\Haneda_View_From_Monorail.jpg 
+[haneda\Haneda_View_From_Monorail.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo item\Doutor-Suica.jpg 
+[item\Doutor-Suica.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo item\KyujitsuOdekakePass.jpg 
+[item\KyujitsuOdekakePass.jpg] width=480 height=320
+
+C:\x\hp\main\ttg\src\img>imginfo item\MonorailSuica.jpg 
+[item\MonorailSuica.jpg] width=480 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo item\Pasmo.jpg 
+[item\Pasmo.jpg] width=240 height=150
+
+C:\x\hp\main\ttg\src\img>imginfo item\Suica.jpg 
+[item\Suica.jpg] width=226 height=141
+
+C:\x\hp\main\ttg\src\img>imginfo item\TokunaiPass.jpg 
+[item\TokunaiPass.jpg] width=320 height=468
+
+C:\x\hp\main\ttg\src\img>imginfo item\old\Pasmo.jpg 
+[item\old\Pasmo.jpg] width=480 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\keisei-screen-en-pasmo-amount.jpg 
+[narita\keisei-screen-en-pasmo-amount.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\keisei-screen-en-pasmo-pay.jpg 
+[narita\keisei-screen-en-pasmo-pay.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\keisei-screen-en-pasmo-type.jpg 
+[narita\keisei-screen-en-pasmo-type.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\keisei-screen-en-pasmo.jpg 
+[narita\keisei-screen-en-pasmo.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\keisei-screen-en-top.jpg 
+[narita\keisei-screen-en-top.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-after-gate.jpg 
+[narita\narita-keisei-after-gate.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-before-gate.jpg 
+[narita\narita-keisei-before-gate.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-board.jpg 
+[narita\narita-keisei-board.jpg] width=400 height=400
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-gate-touchpad.jpg 
+[narita\narita-keisei-gate-touchpad.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-gate.jpg 
+[narita\narita-keisei-gate.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-info-desk.jpg 
+[narita\narita-keisei-info-desk.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-machine-wide-800x800.jpg 
+[narita\narita-keisei-machine-wide-800x800.jpg] width=400 height=400
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-keisei-machine-wide.jpg 
+[narita\narita-keisei-machine-wide.jpg] width=2417 height=2417
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-shuttle-bus.jpg 
+[narita\narita-shuttle-bus.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t1-bus-stop.jpg 
+[narita\narita-t1-bus-stop.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t2-bus-stop-18.jpg 
+[narita\narita-t2-bus-stop-18.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t2-bus-stop-24.jpg 
+[narita\narita-t2-bus-stop-24.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t2-bus-stop-8.jpg 
+[narita\narita-t2-bus-stop-8.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t2-to-t3-A.jpg 
+[narita\narita-t2-to-t3-A.jpg] width=600 height=450
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t2-to-t3-B.jpg 
+[narita\narita-t2-to-t3-B.jpg] width=600 height=450
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t2-to-t3.jpg 
+[narita\narita-t2-to-t3.jpg] width=600 height=450
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t3-bus-stop-U.jpg 
+[narita\narita-t3-bus-stop-U.jpg] width=600 height=450
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t3-bus-stop.jpg 
+[narita\narita-t3-bus-stop.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t3-bus.jpg 
+[narita\narita-t3-bus.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t3-chanpon.jpg 
+[narita\narita-t3-chanpon.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t3-food-court.jpg 
+[narita\narita-t3-food-court.jpg] width=480 height=360
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t3-to-t2-A.jpg 
+[narita\narita-t3-to-t2-A.jpg] width=600 height=450
+
+C:\x\hp\main\ttg\src\img>imginfo narita\narita-t3-to-t2-B.jpg 
+[narita\narita-t3-to-t2-B.jpg] width=600 height=450
+
+C:\x\hp\main\ttg\src\img>imginfo rail\yamanote.png 
+[rail\yamanote.png] width=494 height=400
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_coffee_400x300.jpg 
+[top\top_coffee_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_hnd_400x300.jpg 
+[top\top_hnd_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_hnd_keikyu_400x300.jpg 
+[top\top_hnd_keikyu_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_hnd_terminals_400x300.jpg 
+[top\top_hnd_terminals_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_narita_keisei_400x300.jpg 
+[top\top_narita_keisei_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_narita_terminals_400x300.jpg 
+[top\top_narita_terminals_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_nex_400x300.jpg 
+[top\top_nex_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_nex_inside_400x300.jpg 
+[top\top_nex_inside_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_roppongi_400x300.jpg 
+[top\top_roppongi_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_sobu_yokosuka_400x300.jpg 
+[top\top_sobu_yokosuka_400x300.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo top\top_logo_tokyo_400x300.png 
+[top\top_logo_tokyo_400x300.png] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo town\Akihabara_640x480.jpg 
+[town\Akihabara_640x480.jpg] width=640 height=480
+
+C:\x\hp\main\ttg\src\img>imginfo town\Odaiba_640x480.jpg 
+[town\Odaiba_640x480.jpg] width=640 height=480
+
+C:\x\hp\main\ttg\src\img>imginfo town\Roppongi_Hard_Rock_Cafe_640x480.jpg 
+[town\Roppongi_Hard_Rock_Cafe_640x480.jpg] width=640 height=480
+
+C:\x\hp\main\ttg\src\img>imginfo town\Shinjuku_Sky_Scrapers_640x480.jpg 
+[town\Shinjuku_Sky_Scrapers_640x480.jpg] width=640 height=480
+
+C:\x\hp\main\ttg\src\img>imginfo ueno\Ueno_Station_Hall.jpg 
+[ueno\Ueno_Station_Hall.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo ueno\Ueno_Station_Viewing_Keisei_Station.jpg 
+[ueno\Ueno_Station_Viewing_Keisei_Station.jpg] width=400 height=300
+
+C:\x\hp\main\ttg\src\img>imginfo web\fb29x29.png 
+[web\fb29x29.png] width=29 height=29
